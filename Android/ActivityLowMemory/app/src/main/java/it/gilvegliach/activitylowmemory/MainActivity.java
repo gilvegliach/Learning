@@ -11,7 +11,10 @@ import android.widget.TextView;
 
 import it.gilvegliach.activitylowmemory.R;
 
-
+/*
+ * Demonstrates that hidden activities are not killed under memory pressure.
+ * Read blog post at: http://gilvegliach.it/?id=10
+ */
 public class MainActivity extends Activity implements FragmentManager.OnBackStackChangedListener {
     private static final String TAG = "MainActivity";
     private static final String KEY_ACTIVITY_COUNT = ".activity_count";
@@ -56,6 +59,12 @@ public class MainActivity extends Activity implements FragmentManager.OnBackStac
         mFragmentCount = ((MainFragment) f).getCount();
         TextView tv = (TextView) findViewById(R.id.tv_fragment);
         tv.setText(String.valueOf(mFragmentCount));
+    }
+
+    @Override
+    public void finish() {
+        Log.d(TAG, "finish(), count: " + mActivityCount);
+        super.finish();
     }
 
     public void clickStartActivity(View button) {
