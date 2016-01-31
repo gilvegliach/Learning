@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Activity on low memory</string>
+    <string name="btn_start_activity">Start activity</string>
+    <string name="btn_start_fragment">Push fragment</string>
+</resources>
