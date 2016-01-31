@@ -1,4 +1,4 @@
-package it.gilvegliach.lifecycle.lifecycle;
+package it.gilvegliach.activitylowmemory;
 
 import android.app.Activity;
 import android.app.Fragment;
@@ -8,6 +8,8 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
+
+import it.gilvegliach.activitylowmemory.R;
 
 
 public class MainActivity extends Activity implements FragmentManager.OnBackStackChangedListener {

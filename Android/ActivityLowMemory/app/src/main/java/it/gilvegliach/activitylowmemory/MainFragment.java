@@ -1,15 +1,16 @@
-package it.gilvegliach.lifecycle.lifecycle;
+package it.gilvegliach.activitylowmemory;
 
 import android.app.Fragment;
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
+
+import it.gilvegliach.activitylowmemory.R;
 
 import static android.widget.FrameLayout.LayoutParams.WRAP_CONTENT;
 import static android.widget.FrameLayout.LayoutParams.MATCH_PARENT;
@@ -34,7 +35,6 @@ public class MainFragment extends Fragment {
         mCount = args.getInt(KEY_COUNT, 1);
     }
 
-    @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         super.onCreateView(inflater, container, savedInstanceState);
