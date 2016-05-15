@@ -1,0 +1,4 @@
+GET /entries    controllers.EntryController.getEntries()
+GET /entries/:id    controllers.EntryController.getEntry(id: String)
+POST /entries    controllers.EntryController.postEntry()
+DELETE /entries/:id    controllers.EntryController.deleteEntry(id: String)
