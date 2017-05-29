@@ -1,0 +1,17 @@
+{
+  "name": "random-list",
+  "version": "0.0.0",
+  "description": "Hello Expo!",
+  "author": null,
+  "private": true,
+  "main": "main.js",
+  "dependencies": {
+    "expo": "17.0.0",
+    "react": "16.0.0-alpha.6",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-17.0.0.tar.gz",
+    "babel-eslint": "4.1.6",
+    "eslint": "1.10.3",
+    "eslint-config-airbnb": "2.1.1",
+    "eslint-plugin-react": "3.12.0"
+  }
+}

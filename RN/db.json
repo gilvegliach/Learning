@@ -1,0 +1,87 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Gil",
+      "lists": [
+        {
+          "title": "Lunch",
+          "items": [
+            {
+              "title": "pasta"
+            },
+            {
+              "title": "lido"
+            },
+            {
+              "title": "italian"
+            },
+            {
+              "title": "sushi"
+            },
+            {
+              "title": "russian"
+            },
+            {
+              "title": "soup"
+            },
+            {
+              "title": "mexican"
+            }
+          ]
+        },
+        {
+          "title": "Sports",
+          "items": [
+            {
+              "title": "basketball"
+            },
+            {
+              "title": "soccer"
+            },
+            {
+              "title": "cricket"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Piler",
+      "lists": [
+        {
+          "title": "Books",
+          "items": [
+            {
+              "title": "Amazon: Everything Store"
+            },
+            {
+              "title": "Steve Jobs: the biography"
+            },
+            {
+              "title": "Purple cow"
+            }
+          ]
+        },
+        {
+          "title": "Desserts",
+          "items": [
+            {
+              "title": "Cheesecake"
+            },
+            {
+              "title": "Triple-choco cake"
+            },
+            {
+              "title": "Apple crumble pie"
+            },
+            {
+              "title": "Crepes with Nutella"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "PluralTodo",
+  "version": "0.0.0",
+  "description": "Hello Exponent!",
+  "main": "main.js",
+  "author": null,
+  "dependencies": {
+    "babel-eslint": "4.1.6",
+    "eslint": "1.10.3",
+    "eslint-config-airbnb": "2.1.1",
+    "eslint-plugin-react": "3.12.0",
+    "react-native": "exponentjs/react-native#2015-11-13"
+  }
+}
