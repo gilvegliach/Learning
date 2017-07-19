@@ -9,7 +9,7 @@ public class HelloWorld extends HttpServlet{
         response.setContentType("text/html");
         PrintWriter pw = response.getWriter();
         pw.println("<html>");
-        pw.println("<head><title>Hello World</title></title>");
+        pw.println("<head><title>Hello World</title></head>");
         pw.println("<body>");
         pw.println("<h1>Hello World</h1>");
         pw.println("</body></html>");
